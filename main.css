@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.image {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.image p {
+    font-size: 14px;
+    color: #555;
+}
+
+.image p a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.image p a:hover {
+    text-decoration: underline;
+}
