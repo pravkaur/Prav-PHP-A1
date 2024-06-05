@@ -59,10 +59,14 @@ $config = [
 <body>
    <h1><?php echo htmlspecialchars($config['gallery_name']); ?></h1>
 
-    <?php foreach ($config['unsplash_categories'] as $category): ?>
-        <h2><?php echo ucfirst($category); ?></h2>
+   <div class="list">
+   <?php foreach ($config['unsplash_categories'] as $category): ?>
+       <div class="list-item">
+       <h2><?php echo ucfirst($category); ?></h2>
         <img src="https://source.unsplash.com/300x200/?<?php echo urlencode($category); ?>" alt="<?php echo ucfirst($category); ?> image">
+       </div>
     <?php endforeach; ?>
+   </div>
 
     <h1><?php echo count($config['local_images']); ?> Large Images</h1>
     
