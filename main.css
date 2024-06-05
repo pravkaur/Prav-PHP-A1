@@ -34,3 +34,11 @@ h1, h2 {
 .image p a:hover {
     text-decoration: underline;
 }
+
+
+.list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
