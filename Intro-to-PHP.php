@@ -2,7 +2,7 @@
 
 /*******w******** 
     
-    Name:
+    Name: Pravleen Kaur
     Date:
     Description:
 
@@ -34,7 +34,7 @@ $config = [
             'filename' => 'pearls.jpg',
             'photographer' => 'MohammadReza BaBaei',
             'url' => 'https://unsplash.com/@mohammadrezababaei'
-        ]
+        ],
          [
             'filename' => 'toast.jpg',
             'photographer' => 'Gaby Yerden',
@@ -57,7 +57,7 @@ $config = [
     <title>Assignment 1</title>
 </head>
 <body>
-   <h1><?php echo htmlspecialchars($config['My_Gallery']); ?></h1>
+   <h1><?php echo htmlspecialchars($config['gallery_name']); ?></h1>
 
     <?php foreach ($config['unsplash_categories'] as $category): ?>
         <h2><?php echo ucfirst($category); ?></h2>
